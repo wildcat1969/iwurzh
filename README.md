@@ -14,7 +14,7 @@ and open the template in the editor.
 <body>  
 
 <?php
-
+echo "jekgzxhurhgezhgi";
 $servernam="localhost";
 $usernam="root";
 $passwor="";
@@ -88,7 +88,7 @@ function test_input($data) {
 
 $kt = "insert into t2 (email,username,password) values ('$email', '$username', '$password')";
 $yt= mysqli_query($con, $kt) or die(mysqli_error($con));
-echo "jekgzxhurhgezhgi";
+
 ?>
 
 </body>
